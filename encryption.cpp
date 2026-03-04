@@ -183,7 +183,6 @@ vector<vector<string>> encryptMessage(vector<vector<int>>& fixedMatrix, vector<v
     keyInt = hex_to_int(roundKeyMat);
     xorInt = xorCyprt(stateInt, keyInt);
     state = int_to_hex(xorInt);
-
     return state;
 }
 
