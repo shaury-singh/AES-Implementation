@@ -34,7 +34,7 @@ The program reads plaintext from a file, encrypts it using AES-128, and writes t
 
 The user writes plaintext inside **input.txt**.
 
-![Plaintext Input](images/plaintext.png)
+![Plaintext Input](Images/plaintext.png)
 
 ---
 
@@ -42,7 +42,7 @@ The user writes plaintext inside **input.txt**.
 
 After encryption, the ciphertext is written to **ciphertext.txt** in hexadecimal form.
 
-![Ciphertext Output](images/ciphertext.png)
+![Ciphertext Output](Images/ciphertext.png)
 
 ---
 
@@ -64,7 +64,7 @@ g++ encryption.cpp keyScheduling.cpp -o aes
 
 Example execution:
 
-![Program Execution](images/execution.png)
+![Program Execution](Images/execution.png)
 
 `Encryption Time: ~3550 ms for large plaintext input`
 
